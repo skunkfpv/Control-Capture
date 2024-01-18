@@ -27,9 +27,9 @@ The Arduino will receive the joystick data and convert it into a PPM signal.
 4. Connect to Device:
 Connect the PPM output pin (pin 9) from the Arduino to the PPM input on your drone, model vehicle, or other devices.
 
-5. To discover what COM port your device is on, please run the [COM SCANNER](#COM-SCANNER)
+5. To discover what COM port your device is on, please run the [COM SCANNER](#[COM-SCANNER](https://github.com/skunkfpv/Control-Capture/blob/main/COM%20SCANNER.py))
 
-6. Run [ControlCapture v1](#ControlCapture-V1)
+6. Run [[ControlCapture](#](https://github.com/skunkfpv/Control-Capture/blob/main/ControlCapture%20V1.py)
 Execute the Python script on your computer. It will detect the connected joystick, capture its movements, and send the data to the Arduino.
 
 7. Control Device:
