@@ -20,6 +20,7 @@ How it works: It reads the joystick data, maps it to PPM values, and generates a
 If you would like to support this and many other of my projects, here is the PayPal donation link.
 https://www.paypal.com/donate/?hosted_button_id=5FPENFPCJKS3Q
 # How To Use
+Installation Video: https://youtu.be/Rfy2kiX_o94
 Usage:
 
 1. Connect Joystick: Connect a compatible joystick to your computer. (If you would like to use a Logitech Wheel or to remap functions, go to https://github.com/x360ce/x360ce)
