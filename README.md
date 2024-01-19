@@ -16,6 +16,9 @@ How it works: It continuously reads the joystick's axes values, formats them, an
 2. Arduino Code:
 Purpose: The Arduino code receives the joystick data from the Python script, processes it, and generates a PPM signal that is compatible with devices like the TBS Crossfire.
 How it works: It reads the joystick data, maps it to PPM values, and generates a PPM signal on a specific pin (pin 9). This PPM signal can be used to control devices that accept PPM input.
+# How To Help
+If you would like to support this and many other of my projects, here is the PayPal donation link.
+https://www.paypal.com/donate/?hosted_button_id=5FPENFPCJKS3Q
 # How To Use
 Usage:
 
