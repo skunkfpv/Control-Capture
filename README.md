@@ -1,3 +1,5 @@
+# ALERT
+Currently working on the rest of code. Main file and Audrino code currently unavailable. 
 # Control-Capture
 My project for turning XBOX or any Gamepad input into PPM
 # Important Information
