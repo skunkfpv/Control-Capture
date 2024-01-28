@@ -1,10 +1,10 @@
 # ALERT
 Currently working on the rest of code. Main file and Audrino code currently unavailable. 
 # Control-Capture
-My project for turning XBOX or any Gamepad input into PPM
+My project for turning XBOX or any Gamepad input into RC Controllable signal
 # Important Information
 I am currently developing a PCB. If you are interested in purchasing a pcb, email skunkfpv@yahoo.com
-([image link for pcb](https://lh3.googleusercontent.com/drive-viewer/AEYmBYS4NXEu19FEOT4GnOn27_mRIPBzwQaqJKhwsM9B6ZbodtVT1vhBYzVu_bSAd2S2FzeiRyFaHMpmYWXPpuRKSJ6MNonXVg=w1920-h941))
+
 # Project Overview
 
 This project aims to create a system that allows you to control a device, such as a drone or a model vehicle, using a joystick connected to your computer. The control commands from the joystick are transmitted to an Arduino, which then converts them into a PPM (Pulse Position Modulation) signal. This PPM signal is commonly used to control radio-controlled devices, like those using the TBS Crossfire system.
