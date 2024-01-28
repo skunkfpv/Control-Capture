@@ -16,8 +16,8 @@ Purpose: The Python script captures input from a connected joystick (like those 
 How it works: It continuously reads the joystick's axes values, formats them, and sends the data as a string to the Arduino over a serial connection.
 
 2. Arduino Code:
-Purpose: The Arduino code receives the joystick data from the Python script, processes it, and generates a PPM signal that is compatible with devices like the TBS Crossfire.
-How it works: It reads the joystick data, maps it to PPM values, and generates a PPM signal on a specific pin (pin 9). This PPM signal can be used to control devices that accept PPM input.
+Purpose: The Arduino code receives the joystick data from the Python script, processes it, and sends signal to NRF24L01 which can be controlled with the vehicle.
+How it works: It reads the joystick data and maps it to NRF24L01 values
 # How To Help
 If you would like to support this and many other of my projects, here is the PayPal donation link.
 https://www.paypal.com/donate/?hosted_button_id=5FPENFPCJKS3Q
@@ -31,10 +31,10 @@ Usage:
 
 3. Connect the Arduino to your computer via USB.
 Upload the Arduino code to the board using the Arduino IDE.
-The Arduino will receive the joystick data and convert it into a PPM signal.
+The Arduino will receive the joystick data and convert it into a NRF24L01 signal.
 
 4. Connect to Device:
-Connect the PPM output pin (pin 9) from the Arduino to the PPM input on your drone, model vehicle, or other devices.
+Connect the NRF24L01 to your audrino and your vehicle. 
 
 5. To discover what COM port your device is on, please run the [COM SCANNER](#[COM-SCANNER](https://github.com/skunkfpv/Control-Capture/blob/main/COM%20SCANNER.py))
 
@@ -42,12 +42,12 @@ Connect the PPM output pin (pin 9) from the Arduino to the PPM input on your dro
 Execute the Python script on your computer. It will detect the connected joystick, capture its movements, and send the data to the Arduino.
 
 7. Control Device:
-The joystick movements are translated into PPM signals, allowing you to control your device by manipulating the joystick.
+The joystick movements are translated into NRF24L01 signals, allowing you to control your device by manipulating the joystick.
 
 Notes:
 Ensure that the baud rate in both the Python script and Arduino code matches.
 Adjustments to the mapping and configuration might be needed based on your specific joystick and device requirements.
-This system enables you to control your device remotely using a joystick and facilitates integration with devices compatible with PPM input.
+This system enables you to control your device remotely using a joystick and facilitates integration with devices compatible with NRF24L01 input.
 # About Me
 Hi there! 👋 I'm a 13-year-old tech and drone enthusiast known as skunkfpv. I embarked on a cool project because I wanted to drive an RC car using my Logitech G920 steering wheel. When I couldn't find existing software to make this happen, I decided to take matters into my own hands and develop my own solution.
 
